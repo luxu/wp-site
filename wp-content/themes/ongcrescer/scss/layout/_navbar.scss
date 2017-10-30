@@ -1,0 +1,29 @@
+.l-navbar {
+  background: $dark-gray;
+  color: $white-1;
+  padding: 1em;
+  font-size: 0.8em;
+
+  .social-icons {
+    width: 40%;
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    color: $white-1;
+
+    a {
+      color: $white-1;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+  .actions {
+    width: 59%;
+    display: inline-block;
+    text-align: right;
+  }
+}

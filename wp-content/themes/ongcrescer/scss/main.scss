@@ -1,0 +1,25 @@
+/*
+Theme Name: OngCrescer
+Author: Ong Crescer Team
+Description: Theme for ONG Crescer
+Version: 1.0
+*/
+
+/* Site settings */
+@import "site-settings";
+
+/* Vendor */
+@import "vendor/bootstrap-4.0.0-beta.2.min";
+@import "vendor/font-awesome-4.7.0.min";
+
+/* Base */
+@import "base";
+
+/* Layouts */
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
+
+/* Modules */
+@import "modules/box";

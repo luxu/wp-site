@@ -1,0 +1,73 @@
+/* ==|====================
+   Layout/Footer
+   ======================= */
+
+.l-footer {
+  background: $dark-gray;
+  padding: 5em 0 1em;
+  color: $white-0;
+
+  a {
+    color: $white-0;
+  }
+}
+
+// links
+.l-footer{
+  .links { border-right: 1px solid $white-1;}
+  .links .title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: $dark-orange;
+  }
+
+  .links li {
+    padding-bottom: 0.5em;
+  }
+  .links a {
+    color: $white-0;
+    font-weight: bold;
+    font-size: 1em;
+  }
+}
+
+// middle
+.l-footer{
+  .middle {
+    border-right: 1px solid $white-1;
+
+    .title {
+      display: block;
+      margin: 0.5em 0 1em;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+
+// logo
+.l-footer{
+  .logo a {
+    display: block;
+    padding-top: 4em;
+  }
+}
+
+// credits
+.l-footer{
+  .credits {
+    padding-top: 1.1em;
+    color: $white-1;
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  .credits p {
+    margin-bottom: 0;
+  }
+
+  .credits a{
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,35 @@
+/* ==|====================
+   Layout/Header
+   ======================= */
+
+.l-header {
+  background: $white-0;
+
+  padding: 2em 0 0;
+
+  #logo{
+    display: inline-block;
+  }
+
+  #menu {
+    width: 100%;
+    clear: both;
+    border-top: 1px solid $white-1;
+    margin-top: 2em;
+
+    a {
+      color: $dark-gray;
+      font-weight: bold;
+    }
+
+    li {
+      display: inline-block;
+      padding: 1.1em 0;
+      margin-right: 1.5em;
+
+      > .submenu { display: none;}
+      > .submenu-active { display: block; }
+    }
+  }
+
+}
