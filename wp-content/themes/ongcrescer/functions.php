@@ -1,4 +1,7 @@
 <?php
+
+require(dirname(__FILE__) . "/functions/metabox.php");
+
 /**
  * Enqueue scripts and styles.
  */
