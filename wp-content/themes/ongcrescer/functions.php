@@ -1,5 +1,6 @@
 <?php
 
+require(dirname(__FILE__) . "/functions/pages.php");
 require(dirname(__FILE__) . "/functions/metabox.php");
 
 /**
