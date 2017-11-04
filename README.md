@@ -32,7 +32,7 @@ Para ajudar a contribuir com a construção do site da ONG seguem alguns pontos 
 - O site da ONG é um tema em wordpress, recomendamos olhar o conteúdo de [criação de temas](https://www.wptotal.com/como-criar-um-wordpress-theme/)
 - O css do site, é gerado usando [sass](http://sass-lang.com/guide) para facilitar o desenvolvimento
 
-## Por onde começo?
+## Gostaria de contribui, por onde começo?
 
 Tenha uma instalação do wordpress funcionadno com o tema da ONG ativado.
 
@@ -64,5 +64,11 @@ Este comando ficará olhando os arquivos dentro do diretório `themes/ongcrescer
 arquivos será gerado um novo `style.css` na raiz do diretório do tema.
 
 
+## Links úteis:
 
+- [Como criar manter um theme no Wordpress](https://www.wptotal.com/como-criar-um-wordpress-theme/)
+- [Como contribuir com o site](https://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request/)
 
+## Canais de comunicação
+
+Dúvidas de desenvolvimento entre em contato no nosso chat - [https://ongcrescer.slack.com/](Slack)
