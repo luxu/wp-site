@@ -1,10 +1,16 @@
 // See http://brunch.io for documentation.
 exports.paths = {
   public: "./",
-  watched: ["scss"]
+  watched: ["scss", "js"]
 }
 
 exports.files = {
+  javascripts: {
+    joinTo: {
+      "./app.js": /^js\/app/,
+      "./vendor.js": /^js\/vendor/
+    }
+  },
   stylesheets: {
     joinTo: "./style.css"
   }
