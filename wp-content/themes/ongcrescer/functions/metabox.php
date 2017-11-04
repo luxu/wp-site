@@ -1,6 +1,6 @@
 <?php
   // use https://metabox.io/online-generator/ to generate new metaboxes
-  // require(dirname(__FILE__) . "/metabox/home.php");
+  require(dirname(__FILE__) . "/metabox/home.php");
 
   // loads metabox on specific pages
   global $post;
@@ -8,6 +8,6 @@
   $_page = $post ? $post : get_page($_post_id);
 
   if($_page && $_page->post_name == "home"){
-    //add_filter( 'rwmb_meta_boxes', 'destaque_meta_box' );
+    add_filter( 'rwmb_meta_boxes', 'destaque_meta_box' );
   }
 ?>
