@@ -110,3 +110,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+require(ABSPATH."wp-content/w3tc-config/master-gen.php");
