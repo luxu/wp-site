@@ -18,7 +18,7 @@ Para usuários de windows recomendado o uso do [XAMPP](https://www.apachefriends
 Faça o clone do repositório direto no diretório em que o apache se encontra rodando.
 
 ```
-git clone https://github.com/orgs/ongcrescer/wp-ongcrescer
+git clone https://github.com/ongcrescer/wp-site.git
 ```
 
 Acesse seu servidor local via navegador e prossiga com a instalação padrão do wordpress
