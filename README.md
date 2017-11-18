@@ -20,10 +20,9 @@ Faça o clone do repositório direto no diretório em que o apache se encontra r
 ```
 git clone https://github.com/ongcrescer/wp-site.git
 ```
+Crie um banco de dados chamado ongcrescer, acesse seu servidor local via navegador e prossiga com a instalação padrão do wordpress
 
-Acesse seu servidor local via navegador e prossiga com a instalação padrão do wordpress
-
-Após a instalação do wordpress, selecione o tema da ONG a partir do menu `aparência -> temas`
+Após a instalação do wordpress, selecione o tema da ONG a partir do menu `aparência -> temas` e instale um plugin chamado Meta Box.
 
 # Desenvolvimento
 
@@ -34,7 +33,7 @@ Para ajudar a contribuir com a construção do site da ONG seguem alguns pontos 
 
 ## Gostaria de contribui, por onde começo?
 
-Tenha uma instalação do wordpress funcionadno com o tema da ONG ativado.
+Tenha uma instalação do wordpress funcionando com o tema da ONG ativado.
 
 Abra seu terminal, linha de comando, e acesse o diretório do tema do wordpress:
 
@@ -51,13 +50,15 @@ npm install -g yarn
 yarn install
 ```
 
+Caso ocorra algum problema, instale o python2 e atualize para a versão mais atual
+
 Será criado um diretório dentro do tema chamado, `node_modules` ele conterá o programa para trabalhar com
 o css do tema.
 
 Uma vez instalado rode o seguinte comando:
 
 ```
-node_modules/brunch/bin/brunch watch
+node node_modules/brunch/bin/brunch watch
 ```
 
 Este comando ficará olhando os arquivos dentro do diretório `themes/ongcrescer/scss`. Qualquer alteração nesses
@@ -68,6 +69,7 @@ arquivos será gerado um novo `style.css` na raiz do diretório do tema.
 
 - [Como criar manter um theme no Wordpress](https://www.wptotal.com/como-criar-um-wordpress-theme/)
 - [Como contribuir com o site](https://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request/)
+- [[video] Criando um tema para Wordpress] (https://www.youtube.com/watch?v=h1JmDwJZu3Q)
 
 ## Canais de comunicação
 
