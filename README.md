@@ -24,6 +24,12 @@ Crie um banco de dados chamado ongcrescer, acesse seu servidor local via navegad
 
 Após a instalação do wordpress, selecione o tema da ONG a partir do menu `aparência -> temas` e instale um plugin chamado Meta Box.
 
+Configure o wordpress seguindo:
+
+- Garantir permissão de escrita na pasta `wp-content/uploads`.
+- Acessar `menu -> Configurações -> Leitura -> Pagina Inicial`, colocar o valor `Uma página estática` e valor `Home`
+- Acessar `menu -> Configurações -> Links Permanentes`, selecionar valor `Nome do Post`
+
 # Desenvolvimento
 
 Para ajudar a contribuir com a construção do site da ONG seguem alguns pontos importantes:
