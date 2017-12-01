@@ -70,7 +70,7 @@ node node_modules/brunch/bin/brunch watch
 Este comando ficará olhando os arquivos dentro do diretório `themes/ongcrescer/scss`. Qualquer alteração nesses
 arquivos será gerado um novo `style.css` na raiz do diretório do tema.
 
-## Atualizar seu repositório para que fique igual a'o repositório da ONG:
+## Atualizar seu repositório para que fique igual ao do repositório da ONG:
 
 Afinal de contas com muita gente ajudando e para que o seu repositório não fique desatualizando tem dois caminhos: 
 
@@ -79,7 +79,7 @@ REBASE ou UPSTREAM
 ```
 
 Nesse arquivo abaixo é utilizado o UPSTREAM, siga os passos a seguir:
-[Atualização do Repositori](http://www.raphaelfabeni.com.br/atualizando-seu-fork//)
+[Atualização do Repositorio](http://www.raphaelfabeni.com.br/atualizando-seu-fork//)
 
 ## Links úteis:
 
