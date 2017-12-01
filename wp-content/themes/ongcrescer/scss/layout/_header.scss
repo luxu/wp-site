@@ -1,4 +1,4 @@
-/* ==|====================
+/* ======================
    Layout/Header
    ======================= */
 
@@ -30,6 +30,7 @@
       > .submenu { display: none;}
       > .submenu-active { display: block; }
     }
+    .submenu{position: absolute; background-color: white;}
   }
 
 }

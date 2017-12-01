@@ -34,7 +34,7 @@
         </ul>
 
         <ul class="actions">
-          <li class="phone"><span>(11) 0000-0000</span></li>
+          <li class="phone"><span>(21) 9999-0000</span></li>
         </ul>
 
         <div class="clear"></div>

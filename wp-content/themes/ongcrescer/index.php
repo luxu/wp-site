@@ -24,17 +24,19 @@
           <div class="ong-carousel">
             <div class="ong-carousel-item">
               <h1 class="title"><?php echo rwmb_meta( 'home-destaque-title' ) ?></h1>
-              <p  class="subtitle"><?php echo rwmb_meta( 'home-destaque-subtitle' ) ?></p>
+              <p class="subtitle"><?php echo rwmb_meta( 'home-destaque-subtitle' ) ?></p>
             </div>
 
             <div class="category-icons">
               <ul>
                 <li>
                   <i class="fa fa-pencil"></i>
+                  <p class="unicode">&#x1F46A;</p>
                   <span>Familia</span>
                 </li>
                 <li>
                   <i class="fa fa-pencil"></i>
+                  <p class="unicode">&#x26BD;</p>
                   <span>Esportes</span>
                 </li>
                 <li>
@@ -59,50 +61,6 @@
         </div>
       </div> <!-- /overlay -->
     </div> <!-- /carousel-box -->
-  <?php
-  //
-  //
-  //     <h2 class="tilte">Próximos Eventos</h2>
-  //
-  //     <p class="subtitle">Lorem ipsum</p>
-  //
-  //     <div class="event-box">
-  //       <img src="images/pic.jpg" alt="">
-  //
-  //       <h3 class="title"><a href="">São tomé das letras</a></h3>
-  //
-  //       <span class="date">29 a 01 de outubro</span>
-  //
-  //       <p class="desc">Lorem ipsum</p>
-  //
-  //       <a href="#">Saiba mais</a>
-  //     </div>
-  //
-  //     <div class="event-box">
-  //       <img src="images/pic.jpg" alt="">
-  //
-  //       <h3 class="title"><a href="">São tomé das letras</a></h3>
-  //
-  //       <span class="date">29 a 01 de outubro</span>
-  //
-  //       <p class="desc">Lorem ipsum</p>
-  //
-  //       <a href="#">Saiba mais</a>
-  //     </div>
-  //
-  //     <div class="event-box">
-  //       <img src="images/pic.jpg" alt="">
-  //
-  //       <h3 class="title"><a href="">São tomé das letras</a></h3>
-  //
-  //       <span class="date">29 a 01 de outubro</span>
-  //
-  //       <p class="desc">Lorem ipsum</p>
-  //
-  //       <a href="#">Saiba mais</a>
-  //     </div>
-  //
-  ?>
   </div> <!-- /.row-content -->
 </main>
 

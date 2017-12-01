@@ -29,7 +29,7 @@ if (empty($database_url)){
   define('DB_USER', 'root');
 
   /** MySQL database password */
-  define('DB_PASSWORD', '');
+  define('DB_PASSWORD', 'iu00q71o');
 
   /** MySQL hostname */
   define('DB_HOST', 'localhost');
