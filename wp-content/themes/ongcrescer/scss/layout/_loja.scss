@@ -1,0 +1,79 @@
+.l-loja {
+
+	margin-top: 1.4em;
+	padding-top: 4em;
+	padding-bottom: 1em;
+	background: $white-0;
+
+	.title {
+		font-size: 1.8em;
+		font-weight: bold;
+		margin: 0 -14px;
+	}
+
+	.titulo-caixa {
+		font-size: 0.7em;
+		font-weight: bold;
+		text-align: center;
+		padding: 0.8em 1em;
+	}
+
+	a {
+		font-size: 10px;
+		color: $white-0;
+		text-align: center;
+	}
+
+	.img-circle{
+		margin: 0.5em;
+	}
+
+	.botoes-cima {
+		margin: 1em -1em 2em;
+	}
+
+	.caixa {
+    font-size: 0.9em;
+    width: 10px;
+	}
+
+	.botoes-baixo {
+		a.btn-default {
+			color: #111;
+	    border: solid 2px #ffc107;
+		}
+		a.btn-default:hover {
+			background-color: #e0a800;
+	    border-color: #d39e00;
+		}
+	}
+
+}
+
+i.fa.fa-heart {
+    color: red;
+    font-size: 12px;
+}
+
+.caixa-preco {
+	font-size: 0.72em;
+	margin: 0 1em;
+	padding: 0 2em;
+}
+
+.botao-queroisso {
+	margin: 0 1em;
+}
+
+.espaco-linha {
+	margin: 2em 0 0;
+}
+
+.espaco-linha-pagination {
+	margin: 4em 0 1em;
+
+	a {
+		color:$white-0
+	}
+}
+
