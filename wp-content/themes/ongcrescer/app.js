@@ -148,10 +148,11 @@ var __makeRelativeRequire = function(require, mappings, pref) {
   }
 };
 require.register("js/app/home.js", function(exports, require, module) {
+console.log("page: home");
 
 });
 
-;require.register("___globals___", function(exports, require, module) {
+require.register("___globals___", function(exports, require, module) {
   
 });})();require('___globals___');
 

@@ -15,12 +15,14 @@ Version: 1.0
 /* Base */
 @import "base";
 
+/* Projetos */
+@import "projetos";
+
 /* Layouts */
 @import "layout/navbar";
 @import "layout/header";
 @import "layout/footer";
 @import "layout/main";
-@import "layout/projetos";
 
 /* Modules */
 @import "modules/home_carousel";

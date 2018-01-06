@@ -1,50 +1,7 @@
-.l-projetos {
+/* ===========================
+   Projetos
+   =========================== */
 
-	margin-top: 1.4em;
-	padding-top: 4em;
-	background: $white-0;
-
-	.title {
-		font-size: 1.8em;
-		font-weight: bold;
-	}
-
-	.titulo-caixa {
-		font-size: 0.98em;
-		font-weight: bold;
-	}
-
-	a {
-		font-size: 10px;
-		color: $white-0;
-		text-align: center;
-	}
-
-	.img-circle{
-		margin: 0.5em;
-	}
-
-	.botoes-cima {
-		margin: 1em 0  2em;
-	}
-
-	.caixa {
-    font-size: 0.9em;
-		.img {
-	    margin: 1.5em 0;
-	    padding: 0 3.5em;
-		}
-	}
-
-	.botoes-baixo {
-		a.btn-default {
-			color: #111;
-	    border: solid 2px #ffc107;
-		}
-		a.btn-default:hover {
-			background-color: #e0a800;
-	    border-color: #d39e00;
-		}
-	}
-
+main {
+	background-image: url("../images/historia.jpg");
 }
