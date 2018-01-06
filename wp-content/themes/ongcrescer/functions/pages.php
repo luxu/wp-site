@@ -19,6 +19,5 @@ function theme_create_page($title, $template="", $content="sem conteúdo"){
 }
 
 theme_create_page('Home');
-theme_create_page('Historia');
-theme_create_page('Projetos');
+theme_create_page('Projetos','projetos.php');
 ?>
